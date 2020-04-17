@@ -1,0 +1,31 @@
+{
+	"name": "sheabunge/code-snippets",
+	"description": "Manage code snippets running on a WordPress-powered site through a graphical interface",
+	"keywords": [
+		"wordpress",
+		"snippets",
+		"organization"
+	],
+	"type": "wordpress-plugin",
+	"homepage": "https://wordpress.org/plugins/code-snippets",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Shea Bunge",
+			"email": "bungeshea@gmail.com",
+			"homepage": "https://sheabunge.com"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/sheabunge/code-snippets/issues",
+		"source": "https://github.com/sheabunge/code-snippets"
+	},
+	"require": {
+		"composer/installers": "~1.0",
+		"ext-dom": "*",
+		"ext-json": "*"
+    },
+	"require-dev": {
+		"wp-coding-standards/wpcs": "dev-master"
+	}
+}
